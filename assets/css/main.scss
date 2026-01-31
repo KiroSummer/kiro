@@ -46,7 +46,12 @@
   display: none !important;
 }
 
-/* 调整页面顶部间距，防止内容太靠顶 */
+/* 左右两侧同步下移，保持顶端对齐 */
 .initial-content {
-  padding-top: 2em;
+  margin-top: 3em !important; 
+}
+
+/* 针对某些移动端布局的补充，确保头像不会顶格 */
+.sidebar {
+  margin-top: 1em; 
 }
