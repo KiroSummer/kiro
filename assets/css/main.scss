@@ -41,3 +41,12 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* 彻底隐藏顶部导航栏 */
+.masthead {
+  display: none !important;
+}
+
+/* 调整页面顶部间距，防止内容太靠顶 */
+.initial-content {
+  padding-top: 2em;
+}
