@@ -42,14 +42,14 @@
     "vendor/font-awesome/brands"
 ;
 /* 彻底隐藏顶部导航栏 */
-.masthead {
-  display: none !important;
-}
+// .masthead {
+//   display: none !important;
+// }
 
 /* 左右两侧同步下移，保持顶端对齐 */
-.initial-content {
-  margin-top: 3em !important; 
-}
+// .initial-content {
+//   margin-top: 3em !important; 
+// }
 
 /* 针对某些移动端布局的补充，确保头像不会顶格 */
 .sidebar {
